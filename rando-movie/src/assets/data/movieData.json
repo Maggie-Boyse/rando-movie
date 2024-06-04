@@ -1,0 +1,18 @@
+[
+    {
+      "id": "1A",
+      "title": "The Purge",
+      "year": "2013",
+      "duration": "1h 25m",
+      "description": "A wealthy family is held hostage for harboring the target of a murderous syndicate during the Purge, a 12-hour period in which any and all crime is legal.",
+      "link": "https://www.imdb.com/title/tt2184339/"
+    }
+    {
+        "id": "2B",
+        "title": "Lovely Dark and Deep",
+        "year": "2023",
+        "duration": "1h 27m",
+        "description": "Lennon, a new back-country ranger, travels alone through the dangerous wilderness, hoping to uncover the origins of a tragedy that has haunted her since she was a child.",
+        "link": "https://www.imdb.com/title/tt15560132/?ref_=fn_al_tt_1"
+    }
+]

@@ -1,0 +1,12 @@
+@use "../../styles/partials/global" as *;
+
+.header {
+  background-color: $oxford-blue;
+  font-family: "Comfortaa";
+  padding: 1rem;
+  align-items: center;
+  &__title {
+    color: $flame;
+    font-weight: 700;
+  }
+}

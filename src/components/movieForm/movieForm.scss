@@ -1,7 +1,11 @@
+@use "../../styles/partials/global" as *;
+
 .form {
-  background-color: #7ec8e3;
+  background-color: $nyanza;
+  font-family: "Comfortaa";
+  padding: 1rem;
   &__main-title {
-    color: #000c66;
+    color: $oxford-blue;
   }
   &__input-fields {
     display: flex;
@@ -12,56 +16,71 @@
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border-color: #000c66;
+    border-color: $glaucous;
     border-style: solid;
     &:focus {
       border-color: #0000ff;
       outline: none;
+    }
+    &::placeholder {
+      font-family: "Comfortaa";
     }
   }
   &__year {
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border-color: #000c66;
+    border-color: $glaucous;
     border-style: solid;
     &:focus {
       border-color: #0000ff;
       outline: none;
+    }
+    &::placeholder {
+      font-family: "Comfortaa";
     }
   }
   &__duration {
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border-color: #000c66;
+    border-color: $glaucous;
     border-style: solid;
     &:focus {
       border-color: #0000ff;
       outline: none;
+    }
+    &::placeholder {
+      font-family: "Comfortaa";
     }
   }
   &__description {
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border-color: #000c66;
+    border-color: $glaucous;
     border-style: solid;
     border-width: 2px;
     &:focus {
-      border-color: #0000ff;
+      border-color: $oxford-blue;
       outline: none;
+    }
+    &::placeholder {
+      font-family: "Comfortaa";
     }
   }
   &__link {
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border-color: #000c66;
+    border-color: $glaucous;
     border-style: solid;
     &:focus {
       border-color: #0000ff;
       outline: none;
+    }
+    &::placeholder {
+      font-family: "Comfortaa";
     }
   }
 }

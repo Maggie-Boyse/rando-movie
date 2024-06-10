@@ -15,6 +15,7 @@ const Form = () => {
           placeholder="description"
         ></textarea>
         <input className="form__link" placeholder="link"></input>
+        <button className="form__button">ADD MOVIE</button>
       </div>
     </section>
   );

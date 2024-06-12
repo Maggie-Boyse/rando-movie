@@ -29,6 +29,8 @@ function MovieForm() {
     setMovieDescription(e.target.value);
   };
 
+  const [showModal, setShowModal] = useState(false);
+
   const handleSubmitForm = async (e) => {
     e.preventDefault();
     try {
@@ -40,9 +42,15 @@ function MovieForm() {
         description: movieDescription,
       };
       await axios.post(`${API_URL}/horror`, newMovie);
+      setShowModal(true);
     } catch (error) {
       console.log(error, "cannot post right now");
     }
+  };
+
+  const closeModal = (e) => {
+    e.preventDefault();
+    setShowModal(false);
   };
 
   return (
@@ -78,6 +86,17 @@ function MovieForm() {
           ADD MOVIE
         </button>
       </div>
+      {showModal && (
+        <div className="form__modal">
+          <div className="form__modal-content">
+            <p className="form__modal-content">Your movie has been posted!</p>
+            <button onClick={closeModal} className="form__modal-close">
+              {" "}
+              close{" "}
+            </button>
+          </div>
+        </div>
+      )}
     </form>
   );
 }

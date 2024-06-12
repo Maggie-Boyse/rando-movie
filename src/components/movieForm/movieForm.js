@@ -39,7 +39,7 @@ function MovieForm() {
         link: movieLink,
         description: movieDescription,
       };
-      await axios.post(`${API_URL}/movies`, newMovie);
+      await axios.post(`${API_URL}/horror`, newMovie);
     } catch (error) {
       console.log(error, "cannot post right now");
     }

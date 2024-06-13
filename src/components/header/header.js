@@ -1,4 +1,4 @@
-import "../header/header.scss";
+import "./Header.scss";
 // import { API_URL } from "../../utils/api";
 // import { Link } from "react-router-dom";
 

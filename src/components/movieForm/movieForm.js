@@ -1,4 +1,4 @@
-import "../movieForm/movieForm.scss";
+import "./MovieForm.scss";
 import { useState } from "react";
 import axios from "axios";
 import { API_URL } from "../../utils/api";
@@ -69,7 +69,7 @@ function MovieForm() {
         ></input>
         <input
           className="form__duration"
-          placeholder="duration"
+          placeholder="duration (e.g. 1h30m)"
           onChange={handleMovieDurationChange}
         ></input>
         <input

@@ -2,4 +2,15 @@
 
 .movie-item {
   font-family: "Comfortaa";
+  background-color: $non-photo-blue;
+  border-radius: 10px;
+  width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+  &__year-duration {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }

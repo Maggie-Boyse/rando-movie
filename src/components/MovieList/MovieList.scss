@@ -1,0 +1,8 @@
+@use "../../styles/partials/global" as *;
+
+.movie-list {
+  font-family: "Comfortaa";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

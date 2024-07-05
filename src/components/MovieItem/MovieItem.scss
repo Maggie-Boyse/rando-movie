@@ -13,4 +13,21 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  &__button {
+    width: 5rem;
+    padding: 0.5rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    background-color: $glaucous;
+    border-color: $glaucous;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-family: "Comfortaa";
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px $oxford-blue;
+    &:hover {
+      background-color: $oxford-blue;
+    }
+  }
 }
